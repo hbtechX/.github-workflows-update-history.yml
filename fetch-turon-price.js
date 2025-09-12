@@ -1,5 +1,5 @@
-const fetch = require('node-fetch');
-const cheerio = require('cheerio');
+const response = await fetch("https://hbtechx.github.io/.github-workflows-update-history.yml/turon-history.json");
+const data = await response.json();
 
 async function getTuronPrice() {
   const res = await fetch("https://www.turon.life/");
