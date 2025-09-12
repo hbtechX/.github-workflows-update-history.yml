@@ -1,3 +1,4 @@
+const turonPrice = await getTuronPrice();
 const fs = require('fs');
 const fetch = require('node-fetch');
 
